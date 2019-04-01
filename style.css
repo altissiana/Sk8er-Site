@@ -13,13 +13,18 @@ body{
   background: url(assets/bg.jpg);
 }
 
-.image{
+#image{
   width:930px;
   height: 350px;
   border: 10px solid white;
   background-image: url(assets/top-image.png);
   margin-top: 20px;
   border-bottom: 4px solid gray;
+  background-position:right 60% top 30%;
+  filter: brightness(110%);
+  border: 10px solid white;
+
+
 }
 
 .grid img {
@@ -27,37 +32,57 @@ body{
   height: 340px;
   opacity: 0.5;
   position: absolute;
+  filter: brightness(80%);
+
+}
+.logo {
+  position:relative; 
+  left:10px; 
+  top:70px;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  background-color:white;
+  border-radius: 50%;
+  display: block;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5px;
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 10px;
+  width: 50px;
   height: 50px;
-  text-align: center;
   margin: 5px 2px;
+  text-align:center;
+  text-size-adjust: 50%;
+  padding:10px;
   text-decoration: none;
   border-bottom: 4px solid gray;
 }
 
 .fa-facebook {
   background: #3B5998;
-  color: white;
+  color: rgb(255,255,255,.5);  
+  font-size: 30px;
 }
 
 .fa-rss {
   background: #ff6600;
-  color: white;
+  color: rgb(255,255,255,.5);  font-size: 30px;
 }
 
 .fa-twitter {
   background: #55ACEE;
-  color: white;
+  color: rgb(255,255,255,.5);
+  font-size: 30px;
 }
 
 .fa-youtube {
   background: #bb0000;
-  color: white;
+  color: rgb(255,255,255,.5);  font-size: 30px;
 }
 
 header {
@@ -162,7 +187,7 @@ ul {
 #container {
   width:930px;
   margin:auto;
-  padding-top: 10px;  
+  padding-top: 10px;    
 }
 
 #container div {
@@ -172,7 +197,6 @@ ul {
   color: white; 
   float: left;
   margin:5px;
-  border: 5px solid white;
   font-size: 50px;
   text-align: center;
   font-family:'Archivo Black';
@@ -183,6 +207,13 @@ ul {
   background-repeat: no-repeat;
   background-size: contain;
   border-bottom: 4px solid gray;
+  margin: auto;
+  border: 1px solid transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  border: 10px solid white;
+  margin-right:5px;
 }
 
  #container div:nth-child(2){
@@ -190,6 +221,14 @@ ul {
   background-repeat: no-repeat;
   background-size: contain; 
   border-bottom: 4px solid gray;
+  margin: auto;
+  border: 1px solid transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  border: 10px solid white;
+  margin-bottom:5px;
+
 }
 
  #container div:nth-child(3){
@@ -198,15 +237,33 @@ ul {
    background-repeat: no-repeat;
    background-size: contain; 
    border-bottom: 4px solid gray;
+   margin: auto;
+  border: 1px solid transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  border: 10px solid white;
+
+
+   
 }
 
  #container div:nth-child(4){
-   height:510px;
-   margin-top:-255px;
-   background-image: url(assets/sk8er-2.png);
-   background-repeat: no-repeat;
-   background-size: contain;
-   border-bottom: 4px solid gray;
+  height:510px;
+  margin-top:-255px;
+  background-image: url(assets/sk8er-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-bottom: 4px solid gray;
+  border: 1px solid transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  border: 10px solid white;
+  background-position:right 30% top 20%;
+
+
+
 }
 
 * {box-sizing:border-box}
