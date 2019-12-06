@@ -3,4 +3,6 @@
 - CSS Layout
 - Responsive Web Design
 
-![screenshot](https://user-images.githubusercontent.com/47703044/70349078-49d67400-1821-11ea-8346-90982a58de9b.png)
+
+![sk8rrr-pics](https://user-images.githubusercontent.com/47703044/70352061-860cd300-1827-11ea-8076-07b2c9652814.png)
+
